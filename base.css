@@ -1,22 +1,60 @@
 body{
     background-color: white;
     font-family: 'Poppins', sans-serif;
-    margin: 0 auto;
+    margin: 2px ;
     max-width: 5000px;
     min-width: 300px;
+}
+
+hr{
+    border-color: red;
+
+}
+
+.button_loja{
+    float: right;
+    margin-right: 50px;
+}
+
+.imagem_header{
+    width: 1345px;
+    height: 500px;
 }
 
 .main{
     display: flex;
 }
 
-.sumario{
-    width: 30%;
+.titulo_conteudo{
+    margin-left: 500px;
+    color: red;
 }
 
-.conteudo_principal{
-    
+.veja_tbm{
+    color: red;
 }
+
+.div_vtbm{
+    display: grid;
+}
+
+.rotina{
+    margin-left: 140px;
+    text-decoration: none;
+}
+
+.rotina:hover{
+    color: rgb(99, 10, 10);
+    transition: 1s;
+}
+
+.img_footer1{
+    width: 360px;
+    height: 200px;
+    margin-left: 90px;
+}
+
+
 
 
 
