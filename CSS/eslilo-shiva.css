@@ -1,0 +1,33 @@
+body{
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sub-titulo{
+    color: rgb(92, 14, 14);
+}
+
+.meditacao{
+    width: 1340px;
+    height: 500px;
+}
+
+.menu {
+    margin: auto;
+    padding: 10px 0 10px 0;
+    background-color: rgb(112, 6, 6);
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    flex-grow: 1;
+    text-decoration: none;
+    color: rgb(251, 251, 251);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.menu:hover{
+    background-color: rgb(188, 20, 20);
+    transform: scale(1.01);
+}
