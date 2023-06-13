@@ -1,11 +1,12 @@
 body{
-    background-color: white;
+    background-color: #000000;
     font-family: 'Poppins', sans-serif;
     margin: 2px ;
     max-width: 5000px;
     min-width: 300px;
     text-align: justify;
     height: 4450px;
+    color: #FFFFFF;
 }
 
 hr{
@@ -15,6 +16,16 @@ hr{
 .button_loja{
     float: right;
     margin-right: 50px;
+}
+
+.botao{
+    text-decoration: none;
+    cursor: pointer;
+    color: inherit;
+}
+
+.botao:hover{
+    color: rgb(99, 10, 10)
 }
 
 .imagem_header{
@@ -41,6 +52,16 @@ hr{
 
 .lista_sumario{
     width: 300px;
+}
+
+.sumario_a{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.sumario_a:hover{
+    color: rgb(255, 115, 1)
 }
 
 .main{
