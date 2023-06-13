@@ -14,7 +14,7 @@
             <link rel="stylesheet" type="text/css" href="./src/css/base.css"/>
             <link rel="stylesheet" type="text/css" href="./src/css/reset.css">
         </head>
-        <body>
+        <body class="body_principal">
             <header>
                 <p id="inicio">Shiva's Blog</p>
                 <button class="button_loja">
@@ -23,7 +23,20 @@
                 
                 <img src="./src/images/meditação.jpg" class="imagem_header">
             </header>
-            <br>
+            <hr>
+            <nav>
+                <ul class="menu_ancoragem">
+                    <li>
+                        <a href="index.html" class="botao">Saúde e Bem-estar</a>
+                    </li>
+                    <li>
+                        <a href="" class="botao">Nutrição</a>
+                    </li>
+                    <li>
+                        <a href="" class="botao">Exercícios</a>
+                    </li>
+                </ul>
+            </nav>
             <hr>
             <div class="sumario_main">
                 <div class="sumario">
@@ -46,6 +59,11 @@
                             <li>
                                 <a href="#conteudo4" class="sumario_a">4-Concílio de Tudo</a> 
                             </li>
+                            <hr class="padrao">
+                            <li>
+                                <a href="#rodape" class="sumario_a">5-Rodapé</a>
+                            </li>
+                            <hr class="padrao">
                         </ul>
                     </div>
                 </div>
@@ -173,7 +191,7 @@
                     </div>
                 </div>
             </div>
-            <footer class="footer">
+            <footer class="footer" id="rodape">
                 <br>
                 <div class="finalizar">
                     <nav class="nav_bar">
@@ -199,13 +217,13 @@
                             <h4>Loja</h4>
                             <ul>
                                 <li>
-                                    <a href="https://www.gsuplementos.com.br/" class="botao">Loja Virtual</a>
+                                    <a href="https://www.gsuplementos.com.br/" target="_blank" class="botao">Loja Virtual</a>
                                 </li>
                                 <li>
-                                    <a href="https://www.gsuplementos.com.br/fale-conosco" class="botao">Fale com a Loja</a>
+                                    <a href="https://www.gsuplementos.com.br/fale-conosco" target="_blank" class="botao">Fale com a Loja</a>
                                 </li>
                                 <li>
-                                    <a href="https://www.gsuplementos.com.br/seguraca-e-privacidade/" class="botao">Segurança e Privacidade</a>
+                                    <a href="https://www.gsuplementos.com.br/seguraca-e-privacidade/" target="_blank" class="botao">Segurança e Privacidade</a>
                                 </li>
                             </ul>
                         </div>
@@ -213,10 +231,10 @@
                             <h4>Atendimento</h4>
                             <ul>
                                 <li>
-                                    <Contato href="" class="botao">Contato</a>
+                                    <a href="" class="botao">Contato</a>
                                 </li>
                                 <li>
-                                    <Termos href="" class="botao">Termos de Privacidade</a>
+                                    <a href="termos.html" class="botao">Política de Privacidade</a>
                                 </li>
                             </ul>
                         </div>
