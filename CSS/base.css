@@ -1,7 +1,7 @@
-body{
+/**Congigurações do site principal e seus tópicos: Saúde/Exercícios/Nutrição*/
+.body_principal{
     background-color: #000000;
     font-family: 'Poppins', sans-serif;
-    margin: 2px ;
     max-width: 5000px;
     min-width: 300px;
     text-align: justify;
@@ -16,6 +16,7 @@ hr{
 .button_loja{
     float: right;
     margin-right: 50px;
+    margin-top: -20px
 }
 
 .botao{
@@ -31,6 +32,7 @@ hr{
 .imagem_header{
     width: 1345px;
     height: 500px;
+    padding-top: 10px;
 }
 
 .sumario_main{
@@ -42,8 +44,10 @@ hr{
     padding: 15px;
     font-size: 15px;
     background-color: azure;
-    height: 150px;
+    height: 170px;
     border-radius: 5px 5px 5px;
+    margin-top: 10px;
+    margin-left: 20px;
 }
 
 .padrao{
@@ -159,3 +163,33 @@ hr{
     padding-left: -105px;
     color: #FFFFFF;
 }
+
+/**Configurações dos termos do site*/
+
+.termos_body{
+    background-color: #000000;
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+    color: #FFFFFF;
+}
+
+.menu_ancoragem{
+    width: 1345px;
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 15px;
+    padding-top: 5px;
+}
+
+.sumario_termos{
+    color: red;
+    padding: 15px;
+    font-size: 15px;
+    background-color: azure;
+    height: 270px;
+    border-radius: 5px 5px 5px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
