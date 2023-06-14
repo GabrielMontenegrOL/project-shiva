@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Shiva's Blog</title>
+            <style type="text/css">
+            </style>
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap" 
+            rel="stylesheet"> 
+            <link rel="stylesheet" type="text/css" href="./src/css/base.css"/>
+            <link rel="stylesheet" type="text/css" href="./src/css/reset.css">
+        </head>
+        <body class="body_form">
+            <header>
+                <p id="inicio">Shiva's Blog</p>
+                <img src="./src/images/shivalogo.jpeg" class="logo2">
+                <button class="button_loja">
+                    <a href="https://www.gsuplementos.com.br/" target="_blank" class="botao">Loja Virtual</a>
+                </button>
+                    
+                <img src="./src/images/meditação.jpg" class="imagem_header">
+            </header>
+            <hr>
+            <nav>
+            <ul class="menu_ancoragem">
+                <li>
+                    <a href="index.html" class="botao">Saúde e Bem-estar</a>
+                </li>
+                <li>
+                    <a href="./nutri.html" class="botao">Nutrição</a>
+                </li>
+                <li>
+                    <a href="./exerc.html" class="botao">Exercícios</a>
+                </li>
+            </ul>
+            </nav>
+            <hr>
+            <br>
+            <div class="corpo_texto">
+                <h2 class="titulo_conteudo">Comentários</h2>
+                <form action="thanks.html" method="get" target="_blank">
+                    <p>Seus Comentários serão utilizados com intuito de aprimorar o conteúdo do nosso blog.
+                        E seus dados (Nome, Email e outros)estão protegidos conosco, sendo utilizados apenas para fins de contagem.
+                    </p>
+                    <br>
+                    <br>
+                    <br>
+                    <div class="display_conteudo">
+                        <div class="msg1">
+                            <label class="labels">Comentários*</label>
+                            <textarea class="textarea" cols="45" required></textarea>
+                        </div>
+                        <div class="informações">
+                            <div class="msg">
+                                <label class="labels">Nome*</label>
+                                <input type="text" class="inputs" required>
+                            </div>
+                            <br>
+                            <div class="msg">
+                                <label class="labels">Email*</label>
+                                <input type="email" class="inputs" required>
+                            </div>
+                            <br>
+                            <div class="msg">
+                                <label class="labels">Assunto*</label>
+                            <select name="Assunto" class="selected">
+                                <option value="sugestao">Sugestão</option>
+                                <option value="critica">Crítica</option>
+                                <option value="elogio" selected>Elogio</option>
+                            </select>
+                            <br>
+                            </div>
+                            <div>
+                                <input type="checkbox" value="Concordo com os Termos" required>
+                                <label class="labels">Concordo com os Termos de Privacidade do Site</label>
+                            </div>
+                            <br>
+                            <div>
+                                <input type="submit" value="Publicar Comentário" class="publicar">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+                <footer class="footer_form">
+                    <br>
+                    <div class="finalizar">
+                        <nav class="nav_bar">
+                            <span>Home >> Saúde e Bem-estar</span>
+                        </nav>
+                        <div class="fim">
+                            <div class="blog">
+                                <h4>Blogs</h4>
+                                <ul>
+                                    <li>
+                                        <a href="./index.html" class="botao">Saúde e Bem-estar</a>
+                                    </li>
+                                    <li>
+                                        <a href="./nutri.html" class="botao">Nutrição</a>
+                                    </li>
+                                    <li>
+                                        <a href="./exerc.html" class="botao">Exercícios</a>
+                                    </li>
+                                </ul>
+                                
+                            </div>
+                            <div class="loja">
+                                <h4>Loja</h4>
+                                <ul>
+                                    <li>
+                                        <a href="https://www.gsuplementos.com.br/" target="_blank" class="botao">Loja Virtual</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.gsuplementos.com.br/fale-conosco" target="_blank" class="botao">Fale com a Loja</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.gsuplementos.com.br/seguraca-e-privacidade/" target="_blank" class="botao">Segurança e Privacidade</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="contato">
+                                <h4>Atendimento</h4>
+                                <ul>
+                                    <li>
+                                        <a href="form.html" class="botao">Contato</a>
+                                    </li>
+                                    <li>
+                                        <a href="termos.html" class="botao">Política de Privacidade</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="fim_2">
+                        <h4 class="fim_h4">Parcerias</h4>
+                        <img src="./src/images/seal.png" class="parceiros">
+                        <img src="./src/images/growth.png" class="parceiros">
+                        <img src="./src/images/ironberg.jpg" class="parceiros">
+                    </div>
+                </footer>
+        </body>
+    </html>
