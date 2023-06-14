@@ -13,6 +13,10 @@ hr{
     border-color: red;
 }
 
+.cabecalho{
+    height: 30px;
+}
+
 .button_loja{
     float: right;
     margin-right: 50px;
@@ -44,7 +48,7 @@ hr{
     padding: 15px;
     font-size: 15px;
     background-color: azure;
-    height: 170px;
+    height: 200px;
     border-radius: 5px 5px 5px;
     margin-top: 10px;
     margin-left: 20px;
@@ -193,3 +197,145 @@ hr{
     margin-left: 20px;
 }
 
+.img_gd{
+    width: 650px;
+    height: 420px;
+}
+
+.footer_nutri{
+    margin-top: 440px;
+}
+
+.sumario_nutri{
+    color: red;
+    padding: 15px;
+    font-size: 15px;
+    background-color: azure;
+    height: 270px;
+    border-radius: 5px 5px 5px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.letra{
+    font-size: 16px;
+}
+
+/**Configurações do formulário dos comentários*/
+
+.body_form{
+    background-color: #000000;
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+    color: #FFFFFF;
+    font-size: 16px;
+    height: 1500px;
+}
+
+.corpo_texto{
+    padding-left: 130px;
+    padding-right: 130px;
+}
+
+.msg{
+    display: grid;
+}
+
+.msg1{
+    display: grid;
+    width: 50%;
+}
+
+.labels{
+    color: gray;
+}
+
+.textarea{
+    height: 300px;
+    width: 500px;
+    resize: none;
+    overflow: none;
+    vertical-align: top;
+    border-radius: 10px 10px 10px;
+    cursor: text;
+}
+
+.textarea:hover{
+    border-color: red;
+}
+
+.inputs{
+    width: 400px;
+    height: 30px;
+    border-radius: 5px 5px 5px;
+}
+
+.publicar{
+    background-color: red;
+    color: black;
+    font-size: 30px;
+    border-radius: 5px 5px;
+    border-color: yellow;
+    cursor: pointer;
+    margin-left: 70px;
+}
+
+.selected{
+    cursor: pointer;
+    width: 400px;
+    height: 30px;
+}
+
+.publicar:hover{
+    color: whitesmoke;
+}
+
+.display_conteudo{
+    width: 100%;
+    display: flex;
+}
+
+.informações{
+    width: 50%;
+    padding-left: 100px;
+}
+
+.footer_form{
+    height: 350px;
+    margin-top: 100px;
+}
+
+/**Configurações do thanks.html*/
+.body_thanks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.h1_thanks{
+    text-align: center;
+}
+
+.logo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 12%;
+    height: 20%;
+}
+
+.foto{
+    position: mid;
+    top: 0;
+    left: 0;
+    width: 10%;
+}
+
+.logo2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10%;
+    height: 5.65%;
+}
